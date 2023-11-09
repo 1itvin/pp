@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+    <title>Form</title>
+  </head>
+  <body>
+    <main class="container">
+      <form>
+        <section class="auth-block">
+          <div class="input-container">
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+          </div>
+          <div class="input-container">
+            <label for="login">Login</label>
+            <input type="text" id="login" />
+          </div>
+          <div class="input-container">
+            <label for="password">Password</label>
+            <input type="password" id="password" />
+          </div>
+          <div class="input-container">
+            <label for="password-confirm">Password Confirm</label>
+            <input type="password" id="password-confirm" />
+          </div>
+        </section>
+        <section class="misc-block">
+          <div class="input-container">
+            <label for="file">File</label>
+            <input type="file" id="file" />
+          </div>
+          <div class="input-container">
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+          </div>
+          <div class="input-container">
+            <label for="country">Country</label>
+            <select id="country" class="country-select">
+              <option value="none">None</option>
+              <option value="belarus">Belarus</option>
+              <option value="poland">Poland</option>
+              <option value="france">France</option>
+              <option value="united kingdom">United Kingdom</option>
+              <option value="united states">United States</option>
+            </select>
+          </div>
+        </section>
+        <button type="submit" class="submit-btn" id="submit-btn">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
